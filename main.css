@@ -1,0 +1,33 @@
+body{
+    background-color: #d6aeb0;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title img{
+    width: 60px;
+}
+#title h1{
+    font-family: cursive
+}
+#journal-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#journal{
+    height: 80vh;
+    width: 80vw;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #806960;
+    color: #d6aeb0;
+}
+#journal::placeholder{
+    color: #d6aeb0;
+    font-size: 12px;
+    font-family: cursive;
+}
